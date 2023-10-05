@@ -1,0 +1,18 @@
+Project 1: Website Deployment on AWS Objective: Deploy a website on Amazon Web Services (AWS)
+Step 1: Set Up an AWS Account and Create an Elastic Beanstalk Environment
+  Access AWS Elastic Beanstalk
+  Navigate to Elastic Beanstalk
+  Create an Elastic Beanstalk Environment
+Step 2: Package Your Web Application
+  Prepare Your Web Application
+  Create a Deployment Package
+Step 3: Deploy the Application to AWS and Configure Settings
+  Deploy Your Application
+  Configure Environment Settings
+  Configure Autoscaling and Load Balancing
+
+Step 4: Test the Deployed Website's Functionality
+  Access Your Website
+  Test Your Website
+  Monitor and Troubleshoot
+
