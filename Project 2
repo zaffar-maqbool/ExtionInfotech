@@ -1,0 +1,41 @@
+Step 1: Create an Amazon S3 Bucket and Organize Data into Folders
+  Sign in to AWS Console
+  Open Amazon S3 Service
+  Create a Bucket
+  Create Folders (Prefixes)
+Step 2: Configure Access Permissions for Secure Data Storage
+  Access Control Lists (ACLs)
+  Bucket Policies
+      {
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::project-2-zaffar/*"
+      }
+    ]
+  }
+
+  IAM Roles and User Permissions
+Step 3: Implement Data Backup and Versioning
+  Versioning
+  Cross-Region Replication (CRR)
+{
+  <CORSConfiguration>
+    <CORSRule>
+      <AllowedOrigin>https://example.com</AllowedOrigin>
+      <AllowedMethod>GET</AllowedMethod>
+      <MaxAgeSeconds>3000</MaxAgeSeconds>
+      <AllowedHeader>*</AllowedHeader>
+    </CORSRule>
+  </CORSConfiguration>
+  }
+ }
+}
+
+Step 4: Use Cloud Storage for Data Retrieval and Serving
+  Data Serving
+  Data Retrieval
+  Content Delivery
