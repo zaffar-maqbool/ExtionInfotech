@@ -1,3 +1,5 @@
+Cloud Storage and Data Management Objective: Use cloud storage services (e.g., Amazon S3, Google Cloud Storage) to manage data.
+
 Step 1: Create an Amazon S3 Bucket and Organize Data into Folders
   Sign in to AWS Console
   Open Amazon S3 Service
